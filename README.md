@@ -373,13 +373,15 @@ void assert_failed(uint8_t *file, uint32_t line)
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
- [MMMM.pdf](https://github.com/user-attachments/files/23090231/MMMM.pdf)
+<img width="1204" height="842" alt="image" src="https://github.com/user-attachments/assets/2eaf94b8-2ef9-4aa9-a39f-ae95e31ca2de" />
+
 
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
 
 <img width="1748" height="861" alt="image" src="https://github.com/user-attachments/assets/17776f05-c436-470b-9b18-4625fcc270e4" />
+
 ```
 TON = 3 x 10 x 10^-6
     = 0.00003
@@ -396,6 +398,7 @@ DUTY CYCLE = TON /(TON+TOFF)
       IN % =0.5*100 
            = 50 %
 ```
+
 
 FOR PULSE AT 700
 <img width="1752" height="864" alt="image" src="https://github.com/user-attachments/assets/31677a2d-1271-4f35-b12e-ef807f5bb8c4" />
@@ -415,6 +418,7 @@ DUTY CYCLE = TON /(TON+TOFF)
       IN % =0.7*100 
            = 70 %
 ```
+
 FOR PULSE AT 900
 <img width="1763" height="850" alt="image" src="https://github.com/user-attachments/assets/41848a7c-c78d-4d44-ae31-9aaa2dabe7d3" />
 ```
@@ -433,6 +437,7 @@ DUTY CYCLE = TON /(TON+TOFF)
       IN % =0.9*100 
            = 90 %
 ```
+
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
